@@ -1,0 +1,36 @@
+:root {
+    --primary: red;
+}
+
+.btn {
+    margin-right: 60px;
+    padding: 8px 22px;
+    cursor: pointer;
+    border-radius: 12px;
+    color: black;
+    font-size: large;
+    white-space: nowrap;
+   text-align: center;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+    background-color: #b49cbb;
+}
+
+.btn-primary {
+    color: black;
+}
+
+.btn-outline {
+    color: black;
+}
+
+.btn-medium {
+    background-color: antiquewhite;
+}
+
+.btn-large {
+    background-color: antiquewhite;
+}
