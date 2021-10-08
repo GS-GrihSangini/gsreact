@@ -1,14 +1,16 @@
 import './App.css';
+import NavBar from './components/NavBar/navbar';
+import UpperBody from './components/UpperBody/upperbody';
+import LowerBody from './components/LowerBody/lowerbody';
 
 function App() {
   return (
     <div className="App">
-      <h1>GS:GrihSangini</h1>
       <NavBar />
-      <UpperBody />
-      <Search />
+       <UpperBody />
+      {/* <Search /> */}
       <LowerBody />
-      <ServiceCards />
+      {/* <ServiceCards /> */}
     </div>
   );
 }
